@@ -1,8 +1,8 @@
 import { useCounter } from "./useCounter";
 
-const Counter = () => {
+const Counter = ({startCount = 0}) => {
 
-    const { count, increase, decrease, reset } = useCounter();
+    const { count, increase, decrease, reset } = useCounter(startCount);
 
     return (<div>
         <h1>Counter</h1>

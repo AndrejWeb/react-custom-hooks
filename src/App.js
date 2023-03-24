@@ -11,7 +11,7 @@ function App() {
     <div className="App">
         <Counter />
         <hr/>
-        <Counter />
+        <Counter startCount={5} />
         <hr/>
         <Toggle />
     </div>

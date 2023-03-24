@@ -3,7 +3,7 @@ import { useToggle } from "./useToggle";
 const Toggle = () => {
 
     const {state:isVisible, toggle} = useToggle()
-    const {state:isVisible2, toggle: toggle2} = useToggle()
+    const {state:isVisible2, toggle: toggle2} = useToggle(true)
 
     return (
         <div>
